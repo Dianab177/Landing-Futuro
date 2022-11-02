@@ -8,23 +8,8 @@ body{
     font-family: "Quicksand", Cinzel Decorative, 'Bruno Ace SC Regular';
     margin-top: 80px;
 }
-
-.banner1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.button{
-    border: solid 2px #a905c6;
-    border-radius: 8px;
-    padding: 10px 35px;
-    margin: 30px 0;
-    box-shadow: 7px 5px 5px 3px rgba(156, 67, 239, 0.5);
-    cursor: pointer;
-}
 img{
-    width: 150px;
+    width: 250px;
     height: auto;
 }
 h1{
@@ -37,14 +22,43 @@ h2{
     font-weight: 400;
     font-style: normal;
     letter-spacing: 0.3rem;
-
+    margin: 30px;
 }
 a{
     transition: all 200ms ease;
     opacity: 1;
     color:beige;
+    font-family: uniwars,sans-serif;
+    letter-spacing: 0.3rem;
 }
 a:hover{
     opacity: 0.7;
     color: #e7acf0;
 }
+
+.banner1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.button{
+    border: solid 2px #a905c6;
+    border-radius: 8px;
+    padding: 10px 35px;
+    margin: 30px 0;
+    box-shadow: 7px 5px 5px 3px rgba(156, 67, 239, 0.5);
+    cursor: pointer;
+}
+.logo{
+    margin: 50px 0;
+}
+.video{
+    position:absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
