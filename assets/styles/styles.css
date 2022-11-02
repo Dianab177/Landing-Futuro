@@ -1,15 +1,16 @@
-*{
-    padding: 0;
-    margin: 0;
-}
+
 body{
     color: beige;
+    background-color: black;
 }
 img{
     width: 100px;
     height: auto;
 }
 .banner1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 1024px;
     width: 100vw;
     background-color: black;
