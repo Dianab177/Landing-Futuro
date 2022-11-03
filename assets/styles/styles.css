@@ -279,11 +279,14 @@ footer{
     width: 416px;
     margin-bottom: 20px;
 }
+#pack{
+  height: 140px;
+}
 .banner2{
     display: flex;
     margin: 0;
     width: 100vw;
-    height: 650px;
+    height: 550px;
     justify-items: space-around;
     align-items: center;
     justify-content: center;
