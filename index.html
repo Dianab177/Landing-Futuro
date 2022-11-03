@@ -16,8 +16,14 @@
   </head>
   <body>
     <main>
+      <nav class="nav">
+        <a href="#">Homme</a>
+        <a href="#">About</a>
+        <a href="#">Pack</a>
+        <a href="#contact">Contact</a>
+      </nav>
       <div class="banner1">
-        <a scr="#">
+        <a href="#">
           <img
             class="logo"
             src="./assets/images/kronos_sa.png"
@@ -40,6 +46,39 @@
         <div class="button">
           <a scr="#">Viaja con nosotros</a>
         </div>
+      </div>
+      <div id="contact" class="content-form">
+        <div class="inform">
+          <h4>Contact with us</h4>
+          <p>
+            Compártenos tus datos y nos pondremos en contacto contigo para
+            ofrecerte toda información que necesitas para disfrutar de tu
+            tiempo.
+          </p>
+        </div>
+        <form action="submit">
+          <span>
+            <label for="name">Introduzca su nombre </label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              value="nombre..."
+              required
+            />
+          </span>
+          <span>
+            <label for="email">Introduzca su email </label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              value="email..."
+              required
+            />
+          </span>
+          <button class="input" type="submit">Suscríbete</button>
+        </form>
       </div>
     </main>
   </body>
