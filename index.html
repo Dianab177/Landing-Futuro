@@ -4,10 +4,82 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://use.typekit.net/yka1idi.css" />
     <link rel="stylesheet" href="./assets/styles/styles.css" />
     <title>Landing Kronos</title>
   </head>
   <body>
-    <main></main>
+    <main>
+      <nav class="nav">
+        <a href="#">Homme</a>
+        <a href="#">About</a>
+        <a href="#">Pack</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="banner1">
+        <a href="#">
+          <img
+            class="logo"
+            src="./assets/images/kronos_sa.png"
+            alt="logo kronos"
+          />
+        </a>
+        <div class="animation">
+          <span class="light__wave-1"></span>
+          <span class="light__wave-2"></span>
+          <span class="light__wave-3"></span>
+          <span class="light__wave-4"></span>
+          <span class="light__wave-5"></span>
+          <span class="light__wave-6"></span>
+          <span class="light__wave-7"></span>
+          <span class="light__wave-8"></span>
+          <span class="light__wave-9"></span>
+          <span class="light__wave-10"></span>
+        </div>
+        <h2>Disfruta del mundo en segundos</h2>
+        <div class="button">
+          <a scr="#">Viaja con nosotros</a>
+        </div>
+      </div>
+      <div id="contact" class="content-form">
+        <div class="inform">
+          <h4>Contact with us</h4>
+          <p>
+            Compártenos tus datos y nos pondremos en contacto contigo para
+            ofrecerte toda información que necesitas para disfrutar de tu
+            tiempo.
+          </p>
+        </div>
+        <form action="submit">
+          <span>
+            <label for="name">Introduzca su nombre </label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              value="nombre..."
+              required
+            />
+          </span>
+          <span>
+            <label for="email">Introduzca su email </label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              value="email..."
+              required
+            />
+          </span>
+          <button class="input" type="submit">Suscríbete</button>
+        </form>
+      </div>
+    </main>
   </body>
 </html>
