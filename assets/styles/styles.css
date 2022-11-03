@@ -1,50 +1,51 @@
 *{
+   margin: 0;
     padding: 0;
-    margin: 0;
 }
-body{
+ body{ 
     color: beige;
     background-color: black;
     font-family: "Quicksand", Cinzel Decorative, 'Bruno Ace SC Regular';
     margin-top: 30px;
     animation: background 3s infinite linear;
 }
-img{
-    width: 250px;
-    height: auto;
-}
 h1{
-    font-family: Cinzel Decorative;
-    margin: 20px;
+  font-family: Cinzel Decorative;
+  margin: 20px;
 }
+
 h2{
-   
-    font-family: uniwars,sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: 0.3rem;
-    margin: 30px;
+  font-family: uniwars,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.3rem;
+  margin: 30px;
 }
 h4{
-  font-size: 2rem;
-  margin-bottom: 20px;
+font-size: 2rem;
+margin-bottom: 20px;
 }
 p{
   margin:15px 0;
   font-size: 1.2rem;
+}  
+a:hover{
+  opacity:0.7;
+  color:#e7acf0;
 }
 a{
-    transition: all 200ms ease;
-    opacity: 1;
-    color:beige;
-    font-family: uniwars,sans-serif;
-    letter-spacing: 0.3rem;
-    text-decoration: none;
-    margin-right:30px ;
+  transition: all 200ms ease;
+  opacity: 1;
+  color:beige;
+  font-family: uniwars,sans-serif;
+  letter-spacing: 0.3rem;
+  text-decoration: none;
+  margin-right:30px ;
 }
-a:hover{
-    opacity: 0.7;
-    color: #e7acf0;
+img{
+  width: 250px;
+  height: auto;
+  margin-right: 30px
 }
 form{
   display: flex;
@@ -69,8 +70,48 @@ button{
   background-color: black;
   border: #a905c6 solid 2px;
   margin: 20px 0;
+  }
+.img-content{
+    width: 416px;
+    height: 240px;
+    }
 
+.icono{
+    color: #a905c6;  
+    padding: 0 5px;
+ }
+.txt{
+    width: 416px;
+    margin-bottom: 20px;
 }
+.banner2{
+    display: flex;
+    margin: 0;
+    width: 100vw;
+    height: 450px;
+    justify-items: space-around;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(17, 18, 18, 0.7);
+}
+.container-banner2{
+  height: 900px ;
+  display: flex;
+  justify-items: space-between;
+  justify-content: space-evenly;
+  align-items: center;
+  justify-content: center;
+}
+.content{
+      display: flex;
+      flex-direction: column;
+      width: 500px;   
+      height: 300px;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      justify-items: center;
+  }
 .content-form{
   margin: 80px 0 30px 0;
   display: flex;
@@ -80,9 +121,8 @@ button{
 .inform{
   width: 350px;
 }
-.banner1{
-    display: flex;
-    flex-direction: column;
+
+.descubrir{
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -101,17 +141,23 @@ button{
     border-radius: 8px;
     padding: 10px 35px;
     margin: 30px 0;
-    box-shadow: 7px 5px 5px 3px rgba(156, 67, 239, 0.5);
+    box-shadow: 4px 2px 2px 2px rgba(156, 67, 239, 0.5);
     cursor: pointer;
+    background-color: black;
+    color:beige;
 }
+.link-a{
+  border: solid 2px #a905c6;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin: 30px 0;
+  box-shadow: 4px 2px 2px 2px rgba(156, 67, 239, 0.5);
+  cursor: pointer;
+  background-color: black;
+  color:beige;
+  }
 .logo{
     margin: 50px 0;
-}
-.video{
-    position:absolute;
-    left: 0;
-    top: 0;
-    z-index: -1;
 }
 .animation{
     height: 95vh;
@@ -255,3 +301,20 @@ button{
       border: 2px solid rgba(244, 161, 9, 0.2);
     }
   }
+  footer{    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    background-color: black;
+    height: 100px;
+}
+  .logo-icono{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    }
+    
+  .logo-footer{
+    width: 50px;
+}
