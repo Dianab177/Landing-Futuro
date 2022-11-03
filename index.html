@@ -4,12 +4,96 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://use.typekit.net/yka1idi.css" />
+    <script
+      src="https://kit.fontawesome.com/917d0c58a5.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="./assets/styles/styles.css" />
     <title>Landing Kronos</title>
   </head>
   <body>
     <main>
-     <div class="slide">
+     <nav class="nav">
+        <a class="nav-link" href="#banner1">Homme</a>
+        <a class="nav-link" href="#banner2">Descubrir</a>
+        <a class="nav-link" href="#">Pack</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+      <div id="banner1" class="banner1">
+        <a href="#">
+          <img
+            id="#banner1"
+            class="logo-header"
+            src="./assets/images/kronos_sa.png"
+            alt="logo kronos"
+          />
+        </a>
+        <div class="animation">
+          <span class="light__wave-1"></span>
+          <span class="light__wave-2"></span>
+          <span class="light__wave-3"></span>
+          <span class="light__wave-4"></span>
+          <span class="light__wave-5"></span>
+          <span class="light__wave-6"></span>
+          <span class="light__wave-7"></span>
+          <span class="light__wave-8"></span>
+          <span class="light__wave-9"></span>
+          <span class="light__wave-10"></span>
+        </div>
+        <h2>Disfruta del mundo en segundos</h2>
+        <div class="button">
+          <a scr="#">Viaja con nosotros</a>
+        </div>
+      </div>
+      <div class="background-img">
+        <div id="banner2" class="container-banner2">
+          <div class="banner2">
+            <div class="content">
+              <img class="img-content" src="Img/textil.jpg" />
+              <div class="txt">
+                <p>
+                  Textil inteligente integrado en un traje que cubrirá tus
+                  necesidades metabólicas
+                </p>
+              </div>
+              <div class="link-a">
+                <a href="#">Descubrir</a>
+              </div>
+            </div>
+            <div class="content">
+              <img class="img-content" src="/Img/chip.jpg" />
+              <div class="txt">
+                <p>
+                  Actualización de tu neurochip con la información necesaria
+                  para desenvolverte en tu destino
+                </p>
+              </div>
+              <div class="link-a">
+                <a href="#">Descubrir</a>
+              </div>
+            </div>
+            <div class="content">
+              <img class="img-content" src="/Img/dispositivo.jpg" />
+              <div class="txt">
+                <p>
+                  Disponibilidad inmediata en cualquier parte del mundo y en
+                  cualquier momento
+                </p>
+              </div>
+              <div class="link-a">
+                <a href="#">Descubrir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+         <div class="slide">
             <div class="slide-inner">
                 <input class="slide-open" type="radio" id="slide-1" 
                       name="slide" aria-hidden="true" hidden="" checked="checked">
@@ -69,6 +153,59 @@
                 </ol>
             </div>
         </div>
+        <div id="contact" class="content-form">
+          <div class="inform">
+            <h4>Contácta con nosotros</h4>
+            <p>
+              Compártenos tus datos y nos pondremos en contacto contigo para
+              ofrecerte toda información que necesitas para disfrutar de tu
+              tiempo.
+            </p>
+          </div>
+          <form action="submit">
+            <span>
+              <label for="name">Introduzca su nombre </label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                value="nombre..."
+                required
+              />
+            </span>
+            <span>
+              <label for="email">Introduzca su email </label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                value="email..."
+                required
+              />
+            </span>
+            <button class="input button" type="submit">Suscríbete</button>
+          </form>
+        </div>
+      </div>
     </main>
+    <footer clas="footer">
+      <div class="logo-icono">
+        <img
+          class="logo-footer"
+          src="./assets/images/logo_k.png"
+          alt=" logo kronos"
+        />
+        <div>
+          <a href="#"><i class="fa-brands fa-facebook fa-lg"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram fa-lg"></i></a>
+          <a href="#"><i class="fa-brands fa-whatsapp fa-lg"></i></a>
+        </div>
+      </div>
+      <div>
+        <a href="# " class="link-politicas">Politica de privacidad</a>
+        <a href="#" class="link-politicas"> Terminos y condiciones</a>
+        <a href="#" class="link-politicas">Preguntas frecuentes</a>
+      </div>
+    </footer>
   </body>
 </html>
