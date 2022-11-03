@@ -11,23 +11,26 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="https://use.typekit.net/yka1idi.css" />
-     <script src="https://kit.fontawesome.com/917d0c58a5.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/917d0c58a5.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="./assets/styles/styles.css" />
     <title>Landing Kronos</title>
   </head>
   <body>
     <main>
       <nav class="nav">
-        <a href="#banner1">Homme</a>
-        <a href="#">About</a>
-        <a href="#">Pack</a>
-        <a href="#contact">Contact</a>
+        <a class="nav-link" href="#banner1">Homme</a>
+        <a class="nav-link" href="#banner2">Descubrir</a>
+        <a class="nav-link" href="#">Pack</a>
+        <a class="nav-link" href="#contact">Contact</a>
       </nav>
       <div id="banner1" class="banner1">
         <a href="#">
           <img
             id="#banner1"
-            class="logo"
+            class="logo-header"
             src="./assets/images/kronos_sa.png"
             alt="logo kronos"
           />
@@ -47,6 +50,47 @@
         <h2>Disfruta del mundo en segundos</h2>
         <div class="button">
           <a scr="#">Viaja con nosotros</a>
+        </div>
+      </div>
+
+      <div class="container-banner2">
+        <div class="banner2">
+          <div class="content">
+            <img class="img-content" src="Img/textil.jpg" />
+            <div class="txt">
+              <p>
+                Textil inteligente integrado en un traje que cubrirá tus
+                necesidades metabólicas
+              </p>
+            </div>
+            <div class="link-a">
+              <a href="#">Descubrir</a>
+            </div>
+          </div>
+          <div class="content">
+            <img class="img-content" src="/Img/chip.jpg" />
+            <div class="txt">
+              <p>
+                Actualización de tu neurochip con la información necesaria para
+                desenvolverte en tu destino
+              </p>
+            </div>
+            <div class="link-a">
+              <a href="#">Descubrir</a>
+            </div>
+          </div>
+          <div class="content">
+            <img class="img-content" src="/Img/dispositivo.jpg" />
+            <div class="txt">
+              <p>
+                Disponibilidad inmediata en cualquier parte del mundo y en
+                cualquier momento
+              </p>
+            </div>
+            <div class="link-a">
+              <a href="#">Descubrir</a>
+            </div>
+          </div>
         </div>
       </div>
       <div id="contact" class="content-form">
@@ -79,40 +123,23 @@
               required
             />
           </span>
-          <button class="input" type="submit">Suscríbete</button>
+          <button class="input button" type="submit">Suscríbete</button>
         </form>
       </div>
-       <div class="container-banner2">
-      <div class="banner2">
-        <div class="content">
-          <img class="img-content" src="Img/textil.jpg">
-          <div class="txt"><p>Textil inteligente integrado en un traje que cubrirá tus necesidades metabólicas</p></div>
-          <div><a class="descubrir" href="#">Descubrir</a></div>
-        </div>
-        <div class="content">
-          <img class="img-content" src="/Img/chip.jpg">
-          <div class="txt"><p>Actualización de tu neurochip con la información necesaria para desenvolverte en tu destino</p></div>
-          <div><a class="descubrir" href="#">Descubrir</a></div>
-        </div>
-        <div class="content">
-          <img class="img-content" src="/Img/dispositivo.jpg">
-          <div class="txt"><p>Disponibilidad inmediata en cualquier parte del mundo y en cualquier momento</p></div>
-          <div><a class="descubrir" href="#">Descubrir</a></div>
-        </div>
-      </div>
-      </div>
     </main>
-   <footer clas="footer">
-     <div class="logo-icono">
-      <img class="logo-footer" src="./assets/images/logo-kronos (2).png" alt=" logo kronos">
-      
-      <div>
+    <footer clas="footer">
+      <div class="logo-icono">
+        <img
+          class="logo-footer"
+          src="./assets/images/logo_k.png"
+          alt=" logo kronos"
+        />
+        <div>
           <a href="#"><i class="fa-brands fa-facebook fa-lg"></i></a>
           <a href="#"><i class="fa-brands fa-instagram fa-lg"></i></a>
           <a href="#"><i class="fa-brands fa-whatsapp fa-lg"></i></a>
+        </div>
       </div>
-      </div>
-
       <div>
         <a href="# " class="link-politicas">Politica de privacidad</a>
         <a href="#" class="link-politicas"> Terminos y condiciones</a>
@@ -120,5 +147,4 @@
       </div>
     </footer>
   </body>
-
 </html>
